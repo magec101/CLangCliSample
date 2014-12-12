@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: CLangCliSampleBlackBoxTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.2 sec <<< FAILURE! - in CLangCliSampleBlackBoxTest
+test_blackbox[Hello_STDIN_1](CLangCliSampleBlackBoxTest)  Time elapsed: 0.032 sec  <<< FAILURE!
+java.lang.AssertionError: Test failed : Process exited with an error: 139 (Exit value: 139)
+	at org.junit.Assert.fail(Assert.java:88)
+	at CLangCliSampleBlackBoxTest.test_blackbox(CLangCliSampleBlackBoxTest.java:90)
+
+test_blackbox[Hello_STDIN_2](CLangCliSampleBlackBoxTest)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: Test failed : Process exited with an error: 139 (Exit value: 139)
+	at org.junit.Assert.fail(Assert.java:88)
+	at CLangCliSampleBlackBoxTest.test_blackbox(CLangCliSampleBlackBoxTest.java:90)
+
